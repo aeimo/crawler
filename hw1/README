@@ -1,0 +1,23 @@
+# Web Crawler with Keyword Count Tracking
+
+This project is a web crawler that collects titles from a given website, counts the words in each title, tracks the cumulative total of all the words from the titles, and visualizes the crawl data in plots.
+
+- Crawls a website and collects page titles.
+- Counts the number of words in each title.
+- Tracks the cumulative total of all words encountered in the titles.
+- Plots:
+  - Crawl Speed (Total Time vs. Number of URLs Crawled).
+  - Cumulative Keyword Count vs Crawl Time.
+- Exports the crawled data to an Excel file (`web_archive.xlsx`).
+
+Before running the script, ensure you have the following dependencies installed:
+- `requests`
+- `beautifulsoup4`
+- `matplotlib`
+- `pandas`
+- `openpyxl` 
+
+You can install these dependencies using pip:
+
+```bash
+pip install requests beautifulsoup4 matplotlib pandas openpyxl
